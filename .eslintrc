@@ -1,0 +1,39 @@
+{
+    "extends": [
+        "eslint:recommended",
+        "airbnb-base",
+        "plugin:jest/recommended",
+        "prettier"
+    ],
+    "plugins": [
+        "prettier"
+    ],
+    "env": {
+        "jest/globals": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 2020,
+        "sourceType": "module"
+    },
+    "rules": {
+        "require-jsdoc": 0,
+        "prettier/prettier": "error",
+        "import/prefer-default-export": 0,
+        "no-plusplus": 0,
+        "no-prototype-builtins": 0,
+        "no-extend-native": 0,
+        "max-classes-per-file": 0,
+        "consistent-return": 0
+    },
+    "overrides": [
+        {
+            "files": [
+                "**/*.spec.js"
+            ],
+            "rules": {
+                "no-undef": "warn",
+                "jest/no-disabled-tests": "warn"
+            }
+        }
+    ]
+}
