@@ -1,11 +1,19 @@
-# JS practice
+### Quick Start
 
-## Installation
+Clone the repo
 
-To install dependencies run:
+```
+git clone []
+```
 
-`npm install`
+Install deps
 
-## Basic commands
+```
+npm install 
+```
 
-`npm run test` - to execute unit tests
+To run tests
+
+```
+npm run test
+```
